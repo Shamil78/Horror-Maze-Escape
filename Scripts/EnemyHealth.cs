@@ -35,7 +35,7 @@ public class EnemyHealth : MonoBehaviour
             collider.enabled = false;
         }
 
-        Destroy(gameObject, 3f); // Destroy the enemy after 3 seconds
+        Destroy(gameObject, 3f); // Destroy the enemy after 3 seconds.
     }
 
 }
